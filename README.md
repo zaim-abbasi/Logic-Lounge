@@ -36,14 +36,14 @@ Logic-Lounge is a whimsical and interactive platform for real-time communication
 
 2. Compile and run the Server.
    ```sh
-   javac Server.java
-   java Server
+   javac src/Server.java
+   java -cp src Server
    ```
 
 3. Compile and run the Client in a new terminal or IDE instance.
    ```sh
-   javac Client.java
-   java Client
+   javac src/Client.java
+   java -cp src Client
    ```
 
 4. Enter your unique username and start chatting in the Logic-Lounge!
