@@ -58,5 +58,3 @@ If you enjoy the Logic-Lounge, spread the byte vibes! Share it with your coding 
 
 Let's make coding conversations fun! Happy coding and chatting at Logic-Lounge! 🎉👩‍💻👨‍💻
 ```
-
-Feel free to adjust any part of the README as needed and add any specific details or instructions for your project!
