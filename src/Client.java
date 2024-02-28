@@ -16,7 +16,7 @@ public class Client {
         boolean firstAttempt = true;
         while (true) {
             try {
-                this.socket = new Socket("localhost", 1234);
+                this.socket = new Socket("Lenovo-ThinkPad", 1234);
                 System.out.println("Connected to server!");
                 break;
             } catch (IOException e) {
