@@ -1,6 +1,3 @@
-Certainly! Below is a creative `README.md` file for your "Logic-Lounge" project:
-
-```markdown
 # Logic-Lounge 🤖💬
 
 Welcome to Logic-Lounge, where coding meets casual banter! 🚀
