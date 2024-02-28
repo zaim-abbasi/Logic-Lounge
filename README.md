@@ -30,7 +30,7 @@ Logic-Lounge is an interactive platform for real-time communication between user
 
 1. **Clone the Repository**:
    ```sh
-   git clone https://github.com/your-username/Logic-Lounge.git](https://github.com/zaim-abbasi/Logic-Lounge.git)
+   git clone https://github.com/zaim-abbasi/Logic-Lounge.git
    ```
 
 2. **Navigate to the Source Folder**:
