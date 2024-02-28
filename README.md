@@ -1,9 +1,9 @@
 # Logic-Lounge 🤖💬
 
-Welcome to Logic-Lounge, where coding meets casual banter! 🚀
+Welcome to Logic-Lounge, where coding meets casual conversation! 🚀
 
 ## About
-Logic-Lounge is an interactive platform for real-time communication between users using Java sockets. It's a coding conversation hub, enabling programmers to discuss code, logic, share tech insights, and connect with fellow developers within a local network with **No Internet Access**.
+Logic-Lounge is an interactive platform for real-time communication between users using Java sockets. It's a coding conversation hub, enabling programmers to discuss code, logic, share program insights, and connect with fellow developers within a local network with **No Internet Access**.
 
 ## Features
 
@@ -25,7 +25,6 @@ Logic-Lounge is an interactive platform for real-time communication between user
 ### Prerequisites
 - Java SDK installed
 - Any IDE with Java SDK configured
-- A sense of humor and passion for coding conversations
 
 ### Running the Code
 
@@ -53,15 +52,15 @@ Now, you're all set to enjoy coding conversations in the Logic-Lounge!
 
 ## Setup for Local Communication
 
-This project allows communication on a shared network without internet access. Set up a server on one machine in the system and connect all clients to the same Network or Mobile Hotspot.
+This project allows communication on a shared network without internet access. Set up a server on one machine in the system and connect all clients to the same Mobile Hotspot.
 
-- Run the client to check if the server is up.
+- Run the client to check if the server is Live.
 - If no server is running, execute `Server.java` to create a server on localhost.
 - Clients can connect and communicate within the local network.
 
 ## Important Note
 
-Keep the server running at all times for clients to connect, disconnect, and communicate. The project is designed for communication in environments without internet access.
+Keep the server running at all times for clients to connect, disconnect, and communicate. **The project is designed for communication in environments without internet access**.
 
 ## Contribution
 
