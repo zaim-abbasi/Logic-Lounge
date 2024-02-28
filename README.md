@@ -57,4 +57,3 @@ Logic-Lounge is open to contributions! Whether you want to improve the code, enh
 If you enjoy the Logic-Lounge, spread the byte vibes! Share it with your coding buddies, colleagues, and on your favorite tech forums.
 
 Let's make coding conversations fun! Happy coding and chatting at Logic-Lounge! 🎉👩‍💻👨‍💻
-```
