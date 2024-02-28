@@ -3,7 +3,7 @@
 Welcome to Logic-Lounge, where coding meets casual banter! 🚀
 
 ## About
-Logic-Lounge is an interactive platform for real-time communication between users using Java sockets. It's a coding conversation hub, enabling programmers to discuss code, logic, share tech insights, and connect with fellow developers within a shared local network with NO INTERNET ACCESS.
+Logic-Lounge is an interactive platform for real-time communication between users using Java sockets. It's a coding conversation hub, enabling programmers to discuss code, logic, share tech insights, and connect with fellow developers within a local network with **No Internet Access**.
 
 ## Features
 
