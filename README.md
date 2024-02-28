@@ -14,7 +14,7 @@ Logic-Lounge is an interactive platform for real-time communication between user
 ## How It Works
 
 1. **Setup the Server**: Run the `Server.java` on your system's localhost.
-2. **Client Connection**: Launch the `Client.java`, pick a unique username, and enter the Logic-Lounge. Ensure all clients are on the same local Network or Mobile Hotspot as the server.
+2. **Client Connection**: Launch the `Client.java`, pick a unique username, and enter the Logic-Lounge. Ensure all clients are on the same Network as the server.
 3. **Local Communication**: Share code, thoughts, or seek advice within the local network. The client automatically connects to the server, fostering collaborative coding discussions.
 4. **Server Operation**: Run the client to check server status. If no server is running, execute `Server.java` to create one on localhost. Clients connect automatically.
 5. **Maintain Server Presence**: Keep the server running for continuous client connections and seamless communication.
