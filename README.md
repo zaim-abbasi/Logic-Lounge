@@ -1,73 +1,62 @@
-# Logic-Lounge 🤖💬
+# Java Chat Application
 
-Welcome to Logic-Lounge, where coding meets casual conversation! 🚀
+A simple Java chat application for local network communication without internet access.
 
-## About
-Logic-Lounge is an interactive platform for real-time communication between users using Java sockets. It's a coding conversation hub, enabling programmers to discuss code, logic, share program insights, and connect with fellow developers within a local network with **No Internet Access**.
+## What is this?
 
-## Features
+This is a basic chat room built with Java sockets. Multiple users can connect to a server and chat with each other in real-time. The entire system works on your local network, so you don't need internet access.
 
-- **Discussion Space**: Discuss coding problems, issues, errors, and more with your fellow programmers.
-- **Friendly Atmosphere**: Enjoy a casual and friendly space for discussing algorithms, syntax, and all things code-related.
-- **Real-time Interaction**: Experience real-time communication with fellow developers within the local network. Connect multiple clients to a central server, allowing seamless interaction, message exchange, and collaboration on coding projects.
+## How it works
 
-## How It Works
+The application has two main parts:
 
-1. **Setup the Server**: Run the `Server.java` on your system's localhost.
-2. **Client Connection**: Launch the `Client.java`, pick a unique username, and enter the Logic-Lounge. Ensure all clients are on the same Network as the server.
-3. **Local Communication**: Share code, thoughts, or seek advice within the local network. The client automatically connects to the server, fostering collaborative coding discussions.
-4. **Server Operation**: Run the client to check server status. If no server is running, execute `Server.java` to create one on localhost. Clients connect automatically.
-5. **Maintain Server Presence**: Keep the server running for continuous client connections and seamless communication.
-6. **Local Network Setup**: Perfect for communicating within a shared local network, ideal when all users are connected to the same Wifi or Ethernet network without internet access.
+- **Server**: Runs on one computer and handles all the chat messages
+- **Client**: Runs on each user's computer to send and receive messages
 
-## Getting Started
+When you type a message, it goes to the server, which then sends it to everyone else in the chat room.
 
-### Prerequisites
-- Java SDK installed
-- Any IDE with Java SDK configured
+## What you need
 
-### Running the Code
+- Java SDK installed on your computer
+- All users must be on the same local network (same WiFi or ethernet)
 
-1. **Clone the Repository**:
-   ```sh
-   git clone https://github.com/zaim-abbasi/Logic-Lounge.git
-   ```
+## How to run it
 
-2. **Navigate to the Source Folder**:
-   - Open the project in your preferred IDE (e.g., Visual Studio Code, IntelliJ, Eclipse).
-   - Navigate to the `src` folder within the Logic-Lounge project.
+### Step 1: Start the server
 
-3. **Compile and Run the Server**:
-   - Open `Server.java` in your IDE.
-   - Compile and run the Server.
+1. Open your IDE or terminal
+2. Navigate to the `src` folder
+3. Compile and run `Server.java`
+4. You'll see "Server up! Awaiting..." when it's ready
 
-4. **Compile and Run the Client**:
-   - Open `Client.java` in a new terminal or IDE instance.
-   - Compile and run the Client.
+### Step 2: Connect clients
 
-5. **Enter Your Unique Username**:
-   - Once the client is running, enter your unique username to start chatting in the Logic-Lounge!
+1. Open another terminal or IDE window
+2. Compile and run `Client.java`
+3. Enter your username when prompted
+4. Start chatting
 
-Now, you're all set to enjoy coding conversations in the Logic-Lounge!
+You can run multiple clients to have several people in the same chat room.
 
-## Setup for Local Communication
+## Important notes
 
-This project allows communication on a shared network without internet access. Set up a server on one machine in the system and connect all clients to the same Mobile Hotspot.
+- Keep the server running the entire time. If it stops, everyone gets disconnected.
+- The client code currently connects to "Lenovo-ThinkPad" on port 1234. You might need to change this to your server's computer name or IP address.
+- This works best when everyone is connected to the same WiFi network.
 
-- Run the client to check if the server is Live.
-- If no server is running, execute `Server.java` to create a server on localhost.
-- Clients can connect and communicate within the local network.
+## Files in this project
 
-## Important Note
+- `Server.java`: The main server that handles all connections and message broadcasting
+- `Client.java`: The client application that users run to join the chat
+- `ClientHandler.java`: Part of the server code that manages individual client connections
 
-Keep the server running at all times for clients to connect, disconnect, and communicate. **The project is designed for communication in environments without internet access**.
+## Troubleshooting
 
-## Contribution
+If the client can't connect to the server, check:
+1. Is the server running?
+2. Are both computers on the same network?
+3. Is the server computer name or IP address correct in the client code?
 
-Logic-Lounge welcomes contributions! Whether improving the code, enhancing features, or suggesting new themes, your ideas are welcome. Fork the repository, make your changes, and submit a pull request.
+## Making changes
 
-## Spread the Byte Vibes
-
-If you enjoy Logic-Lounge, share it with your coding buddies, colleagues, and on tech forums.
-
-Let's make coding conversations fun! Happy coding and chatting at Logic-Lounge! 🎉👩‍💻👨‍💻
+To use this on your network, you'll probably need to change the server address in `Client.java` from "Lenovo-ThinkPad" to your actual server computer's name or IP address.
